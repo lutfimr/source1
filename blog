@@ -1,0 +1,195 @@
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div align="center" class="MsoNormal" style="text-align: center;">
+<br />
+PERCOBAAN VII<o:p></o:p></div>
+<div align="center" class="MsoNormal" style="text-align: center;">
+PLC (PROGRAMABLE
+LOGIC CONTROLLERS)<o:p></o:p></div>
+<div align="center" class="MsoNormal" style="text-align: center;">
+PENGONTROLAN PLAN
+SEBENARNYA DENGAN PLC<o:p></o:p></div>
+<div style="margin-bottom: .0001pt; margin: 0cm;">
+<span style="font-family: &quot;&quot; , serif , &quot;&quot; , serif;"><br />
+Nama&nbsp;&nbsp; : Lutfi Maula
+Robbi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Dosen&nbsp; : Eko Budi Utomo</span><span style="font-size: 13.5pt;"><o:p></o:p></span></div>
+<div style="margin-bottom: .0001pt; margin: 0cm;">
+<span style="font-family: &quot;&quot; , serif , &quot;&quot; , serif;">Kelas&nbsp;&nbsp; : 2 D4 T Mekatronika B PENS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Asisten:
+Akbar</span><span style="font-size: 13.5pt;"><o:p></o:p></span></div>
+<div style="margin-bottom: .0001pt; margin: 0cm;">
+<span style="font-family: &quot;&quot; , serif , &quot;&quot; , serif;">NRP&nbsp;&nbsp;&nbsp; : 3110131052</span><span style="font-size: 13.5pt;"><o:p></o:p></span></div>
+<div class="MsoNormal">
+<br /></div>
+<div class="MsoNormal">
+<br /></div>
+<div class="MsoNormal">
+I.TUJUAN<o:p></o:p></div>
+<div class="MsoNormal">
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dapat
+mengaplikasikan program yang ada di PLC dengan masalah sebenarnya yang ada pada
+plan atau perencanaan sistem yang sebenarnya secara real-time dan tepat guna
+sesuai sistem plan yang ada.<o:p></o:p></div>
+<div class="MsoNormal">
+<br /></div>
+<div class="MsoNormal">
+II.TEORI SINGKAT<o:p></o:p></div>
+<div class="MsoNormal">
+<br /></div>
+<div class="MsoNormal">
+Programmable Logic Controllers (PLC) adalah komputer
+elektronik yang mudah digunakan (user friendly) yang memiliki fungsi kendali
+untuk berbagai tipe dan tingkat kesulitan yang beraneka ragam. Berdasarkan
+namanya konsep PLC adalah sebagai berikut :<o:p></o:p></div>
+<div class="MsoNormal">
+1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Programmable,
+menunjukkan kemampuan dalam hal memori untuk menyimpan program yang telah
+dibuat yang dengan mudah diubah-ubah fungsi atau kegunaannya.<o:p></o:p></div>
+<div class="MsoNormal">
+2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Logic,
+menunjukkan kemampuan dalam memproses input secara aritmatik dan logic (ALU),
+yakni melakukan operasi membandingkan, menjumlahkan, mengalikan, membagi,
+mengurangi, negasi, AND, OR, dan lain sebagainya.<o:p></o:p></div>
+<div class="MsoNormal">
+3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Controller,
+menunjukkan kemampuan dalam mengontrol dan mengatur proses sehingga
+menghasilkan output yang diinginkan.<o:p></o:p></div>
+<div class="MsoNormal">
+PLC ini dirancang untuk menggantikan suatu rangkaian relay
+sequensial dalam suatu sistem kontrol. Selain dapat diprogram, alat ini juga
+dapat dikendalikan, dan dioperasikan oleh orang yang tidak memiliki pengetahuan
+di bidang pengoperasian komputer secara khusus. PLC ini memiliki bahasa
+pemrograman yang mudah dipahami dan dapat dioperasikan bila program yang telah
+dibuat dengan menggunakan software yang sesuai dengan jenis PLC yang digunakan
+sudah dimasukkan.Alat ini bekerja berdasarkan input-input yang ada dan
+tergantung dari keadaan pada suatu waktu tertentu yang kemudian akan meng-ON
+atau meng-OFF kan output-output. 1 menunjukkan bahwa keadaan yang diharapkan
+terpenuhi sedangkan 0 berarti keadaan yang diharapkan tidak terpenuhi. PLC juga
+dapat diterapkan untuk pengendalian sistem yang memiliki output banyak.<o:p></o:p></div>
+<div class="MsoNormal">
+<br /></div>
+<div class="MsoNormal">
+III. PERALATAN<o:p></o:p></div>
+<div class="MsoNormal">
+<br /></div>
+<div class="MsoNormal">
+1. Modul PLC Siemens S7 300&nbsp;<a href="http://mekatronika.pens.ac.id/">Program Studi Teknik Mekatronika PENS</a><o:p></o:p></div>
+<div class="MsoNormal">
+2. PC terinstall SIMATIC Manager<o:p></o:p></div>
+<div class="MsoNormal">
+3. Modul plan festo (distributing, conveyor and sorting)<o:p></o:p></div>
+<div class="MsoNormal">
+IV PERMASALAHAN<o:p></o:p></div>
+<div class="MsoNormal">
+Buatlah suatu program dengan PLC dengan memperhatikan
+sensor-sensor serta aktuator pada modul simulator plan serta selesaikan
+permasalahan distributing pada plan yang telah di sediakan.<o:p></o:p></div>
+<div class="MsoNormal">
+<br /></div>
+<div class="MsoNormal">
+V DATA HASIL PERCOBAAN<o:p></o:p></div>
+<div class="MsoNormal">
+Sebelum merancang program, kita lihat terlebih dahulu list
+petunjuk alamat dan port pada simulator.<o:p></o:p></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-xE9HYqXLI98/VbmbMY52CiI/AAAAAAAAAGc/NMH5lHum46A/s1600/Capture.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="https://4.bp.blogspot.com/-xE9HYqXLI98/VbmbMY52CiI/AAAAAAAAAGc/NMH5lHum46A/s320/Capture.PNG" width="169" /></a></div>
+<div class="MsoNormal">
+<br /></div>
+<br />
+<div class="MsoNormal">
+dan berikut adalah daftar alamat port :<o:p></o:p></div>
+<u1:p></u1:p>
+
+
+
+<u1:p></u1:p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br />
+<div class="MsoNormal">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-k2m9BzeVtVw/VbmbugvRHYI/AAAAAAAAAGk/Qu_U5L3PF3M/s1600/2.1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://3.bp.blogspot.com/-k2m9BzeVtVw/VbmbugvRHYI/AAAAAAAAAGk/Qu_U5L3PF3M/s1600/2.1.JPG" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="MsoNormal">
+Hasil program melalui SIMATIC Manager :<o:p></o:p></div>
+<div class="MsoNormal">
+<img src="https://2.bp.blogspot.com/-PLpU9CRCUAs/VbYjrbIM7tI/AAAAAAAAARM/iXVYvY1Nyts/s320/1.JPG" /></div>
+<div class="MsoNormal">
+<img src="https://3.bp.blogspot.com/-KD_YFsea7Yk/VbYjwDVq7wI/AAAAAAAAARU/hdwYY_4Z5So/s320/2.JPG" /></div>
+<div class="MsoNormal">
+<img src="https://2.bp.blogspot.com/-rppn9K3WXmw/VbYj1SH_IcI/AAAAAAAAARc/3G-UcPP4ZQs/s320/3.JPG" /></div>
+<div class="MsoNormal">
+<img src="https://2.bp.blogspot.com/-TYNBA_EO7I8/VbYj2VcPlII/AAAAAAAAARs/dXtPHnzmDxI/s320/4.JPG" /></div>
+<div class="MsoNormal">
+<img src="https://3.bp.blogspot.com/-NPvuzKw1L8M/VbYj27p4ZmI/AAAAAAAAARw/Dcqln3_V-q0/s320/5.JPG" /></div>
+<div class="MsoNormal">
+Penjelasan program :<o:p></o:p></div>
+<div class="MsoNormal">
+&nbsp; &nbsp; &nbsp; &nbsp;Saat I13.0 (start) ditekan,
+material mulai didorong. Plant akan terus-menerus aktif dengan hanya sekali
+tekan tombol start. Coil memory M0.0 akan tersambung dan aktif dan kontak M0.0
+pada network 2 aktif sehingga Q17.0 (dorong material) pun aktif. Limit switch
+max (I13.2) akan tertekan saat material mencapai mencapai posisi maksimal
+sehingga sistem mengeksekusi Q17.2 (gerak kiri) dengan menghisap material untuk
+dibawa ke conveyor. Saat tertekan limit kanan (I13.5) penghisap akan mati.
+Sensor hisap (Q17.1) aktif dan seketika itu gerak kanan (Q17.4) dan coil memory
+(M0.1) aktif. SJika kontak memori (M0.1) aktif, maka akan tersambung oleh
+timer1 (T1) dengan setting waktu 3 detik (S5T#3S). Limit kanan (I13.5) aktif
+maka gerak kanan dan timer1 mati. Program dirangkai dengan rangkaian self
+konservatif sehingga sistem akan bekerja terus-menerus bila tidak ada tindakan
+stop.&nbsp;<o:p></o:p></div>
+<div class="MsoNormal">
+<br /></div>
+<div class="MsoNormal">
+</div>
+<div class="MsoNormal">
+<o:p>&nbsp;VI KESIMPULAN</o:p></div>
+<div class="MsoNormal">
+</div>
+<ul>
+<li>Pada sebuah Plan harus digunakan perencanaan yang matang guna sesuai yang direncanakan</li>
+</ul>
+<br />
